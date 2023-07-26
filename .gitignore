@@ -1,0 +1,96 @@
+# Ignore core WordPress files
+wp-admin/
+wp-includes/
+
+# Other files
+/**/plugins
+/**/uploads
+/**/twentytwentyone
+/**/twentytwentytwo
+/**/twentytwentythree
+**wp-activate.php
+**wp-blog-header.php
+**wp-cron.php
+**wp-comments-post.php
+**wp-config-sample.php
+**wp-links-opml.php
+**wp-load.php
+**wp-login.php
+**wp-mail.php
+**wp-settings.php
+**wp-signup.php
+**wp-trackback.php
+**local-xdebuginfo.php
+
+
+**public/index.php
+**public/wp-content/themes/index.php
+
+
+
+# Ignore configuration files with sensitive information
+wp-config.php
+
+# Ignore cache and temporary files
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/backup-db/
+wp-content/ai1wm-backups/
+
+# Ignore logs
+wp-content/debug.log
+
+# Ignore plugin and theme dependencies
+wp-content/plugins/*/node_modules/
+wp-content/themes/*/node_modules/
+wp-content/plugins/*/vendor/
+wp-content/themes/*/vendor/
+
+# Ignore compiled and minified assets
+wp-content/plugins/*/dist/
+wp-content/themes/*/dist/
+
+# Ignore build and deployment directories
+build/
+deploy/
+
+# Ignore specific editor settings files
+.editorconfig
+.vscode/
+
+# Ignore miscellaneous files and folders
+.htaccess
+license.txt
+readme.html
+xmlrpc.php
+.sass-cache/
+*.log
+*.bak
+*.sql
+*.sqlite
+
+# Ignore package manager files
+package-lock.json
+yarn.lock
+
+# Ignore environment-specific configuration
+*.env
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore IDE specific files (e.g., PhpStorm, Visual Studio Code)
+*.idea/
+.vs/
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore compiled PHP files
+*.phpc
+
+# Ignore database dumps
+*.sql
+*.sqlite
