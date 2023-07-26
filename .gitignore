@@ -22,7 +22,7 @@ wp-includes/
 **wp-trackback.php
 **local-xdebuginfo.php
 
-
+**public/wp-content/index.php
 **public/index.php
 **public/wp-content/themes/index.php
 
