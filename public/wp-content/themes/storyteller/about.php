@@ -1,8 +1,9 @@
+<?php get_header(); ?>
+
 <!-- HERO SECTION -->
 <section class="home hero-section">
     <!-- VIDEO -->
-    <video #slide class="video-slide active" src="../../../assets/videos/footage_1.mp4" [muted]="'muted'" autoplay muted
-        loop pla></video>
+    <video #slide class="video-slide active" src="./assets/videos/footage_1.mp4" autoplay muted loop></video>
 
     <!-- CONTENT -->
     <div #content class="content active">
@@ -109,9 +110,9 @@
     <div class="about-section-wrapper">
         <!-- ABOUT IMAGE -->
         <div class="about-img-container">
-            <img class="about-img" src="../../../assets/images/placeholder/lady1.png" alt="about-img">
+            <img class="about-img" src="./assets/images/placeholder/lady1.png" alt="about-img">
             <div class="overlay">
-                <img src="../../../assets/images/placeholder/lady2.png" alt="">
+                <img src="./assets/images/placeholder/lady2.png" alt="">
             </div>
         </div>
         <!-- ABOUT CONTENT -->
@@ -160,19 +161,19 @@
         <div class="row">
             <div class="col">
                 <div class="feature-img">
-                    <img src="../../../assets/images/placeholder/lady1.png" width="100%">
+                    <img src="./assets/images/placeholder/lady1.png" width="100%">
                     <!-- PLAY BUTTON -->
-                    <img src="../../../assets//images/media_icons/play.png" class="play-btn"
-                        (click)="playVideo('../../../assets/videos/stock_footage_2.mp4')">
+                    <img src="./assets/images/media_icons/play.png" class="play-btn"
+                        onclick="playVideo('./assets/videos/stock_footage_2.mp4')">
 
 
                     <!-- VIDEO PLAYER -->
                     <section class="video-player" id="video-player" #videoPlayer>
                         <video width="100%" controls autoplay id="video" #video>
-                            <source src="../../../assets/videos/stock_footage_2.mp4" type="video/mp4">
+                            <source src="./assets/videos/stock_footage_2.mp4" type="video/mp4">
                         </video>
                         <!-- CLOSE BUTTON -->
-                        <img src="../../../assets/images/media_icons/close.png" class="close-btn" (click)="stopVideo()">
+                        <img src="./assets/images/media_icons/close.png" class="close-btn" onclick="stopVideo()">
                     </section>
                 </div>
             </div>
@@ -180,10 +181,10 @@
             <div class="col">
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src="../../../assets//images/placeholder/lady1.png">
+                        <img src="./assets/images/placeholder/lady1.png">
                         <!-- PLAY BUTTON -->
-                        <img src="../../../assets//images/media_icons/play.png" class="play-btn"
-                            (click)="playVideo('../../../assets/videos/stock_footage_3.mp4')">
+                        <img src="./assets/images/media_icons/play.png" class="play-btn"
+                            onclick="playVideo('./assets/videos/stock_footage_3.mp4')">
                     </div>
                     <div class="mentee-info">
                         <p>
@@ -200,10 +201,10 @@
 
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src="../../../assets//images/placeholder/lady1.png" width="40%">
+                        <img src=".assets/images/placeholder/lady1.png" width="40%">
                         <!-- PLAY BUTTON -->
-                        <img src="../../../assets//images/media_icons/play.png" class="play-btn"
-                            (click)="playVideo('../../../assets/videos/stock_footage.mp4')">
+                        <img src=".assets/images/media_icons/play.png" class="play-btn"
+                            onclick="playVideo('.assets/videos/stock_footage.mp4')">
                     </div>
                     <div class="mentee-info">
                         <p>
@@ -221,10 +222,10 @@
 
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src="../../../assets//images/placeholder/lady1.png" width="40%">
+                        <img src="./assets/images/placeholder/lady1.png" width="40%">
                         <!-- PLAY BUTTON -->
-                        <img src="../../../assets//images/media_icons/play.png" class="play-btn"
-                            (click)="playVideo('../../../assets/videos/stock_footage_3.mp4')">
+                        <img src="./assets/images/media_icons/play.png" class="play-btn"
+                            onclick="playVideo('./assets/videos/stock_footage_3.mp4')">
                     </div>
                     <div class="mentee-info">
                         <p>
@@ -264,7 +265,7 @@
         <div class="employee-card">
             <!-- AVATAR -->
             <div class="employee-avatar">
-                <img src="../../../assets/images/placeholder/stock3.jpg" alt="avatar" class="avatar">
+                <img src="./assets/images/placeholder/stock3.jpg" alt="avatar" class="avatar">
             </div>
 
             <!-- CARD CONTENT -->
@@ -302,7 +303,7 @@
         <div class="employee-card center">
             <!-- AVATAR -->
             <div class="employee-avatar">
-                <img src="../../../assets/images/placeholder/stock3.jpg" alt="avatar" class="avatar center">
+                <img src="./assets/images/placeholder/stock3.jpg" alt="avatar" class="avatar center">
             </div>
 
             <!-- CARD CONTENT -->
@@ -340,7 +341,7 @@
         <div class="employee-card">
             <!-- AVATAR -->
             <div class="employee-avatar">
-                <img src="../../../assets/images/placeholder/stock3.jpg" alt="avatar" class="avatar">
+                <img src="./assets/images/placeholder/stock3.jpg" alt="avatar" class="avatar">
             </div>
 
             <!-- CARD CONTENT -->
@@ -391,3 +392,5 @@
         <img src="./assets/images/sponsors/kids_in_africa.png" alt="sponsor" class="sponsor-logo">
     </div>
 </section>
+
+<?php get_footer(); ?>
