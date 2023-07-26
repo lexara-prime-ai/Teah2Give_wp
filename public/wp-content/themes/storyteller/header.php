@@ -28,7 +28,7 @@
         </a>
       </li>
       <li class="link-item">
-        <a class="link" href="./pages/about.html">
+        <a class="link" href="./about.php">
           About Us
         </a>
       </li>
