@@ -1338,9 +1338,15 @@ video:focus {
     opacity: 1;
 }
 
-footer {
+/* footer {
     margin-top: -14rem;
-}
+} */
+
+/* .footer {
+    position: relative;
+    top: 210px;
+} */
+
 
 
 
@@ -1630,12 +1636,6 @@ footer {
         height: 200px;
     }
 }
-
-.footer {
-    position: relative;
-    top: 210px;
-}
-
 
 @media (max-width: 1024px) {
     .info-section {

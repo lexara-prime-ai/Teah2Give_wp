@@ -391,8 +391,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    height: 500px;
     position: relative;
+    margin-bottom: -14rem;
     top: -200px;
 ">
     <!-- SECTION TITLE -->
