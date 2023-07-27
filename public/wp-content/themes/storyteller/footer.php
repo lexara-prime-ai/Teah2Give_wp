@@ -2,7 +2,7 @@
 <footer class="footer-section">
     <div class="footer-content">
         <div class="more-info">
-            <img src="./assets/images/logo.png" alt="logo" class="footer-logo">
+            <img src=<?php echo get_theme_file_uri('/assets/images/logo.png') ?> alt="logo" class="footer-logo">
             <p class="more-from-teach2give">
                 Everything You Need to Know About Moving to University of College with FromHighSchooltoUni
             </p>

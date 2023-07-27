@@ -3,7 +3,8 @@
 <!-- HERO SECTION -->
 <section class="home hero-section">
     <!-- VIDEO -->
-    <video class="video-slide active" src="./assets/videos/footage_1.mp4" autoplay muted loop></video>
+    <video class="video-slide active" src=<?php echo get_theme_file_uri('/assets/videos/footage_2.mp4') ?> autoplay
+        muted loop></video>
 
     <!-- CONTENT -->
     <div #content class="content active">
@@ -93,7 +94,7 @@
 
         <!-- INFO VIDEO -->
         <div class="video-container">
-            <video src="./assets/videos/footage_1.mp4" autoplay muted loop></video>
+            <video src=<?php echo get_theme_file_uri('/assets/videos/footage_1.mp4') ?> autoplay muted loop></video>
         </div>
     </div>
 </section>
@@ -169,7 +170,8 @@
         <!--===========================-->
         <!-- TODO: REMOVE active CLASS   -->
         <!--===========================-->
-        <video class="video-slide active" src="./assets/videos/footage_1.mp4" autoplay muted loop></video>
+        <video class="video-slide active" src=<?php echo get_theme_file_uri('/assets/videos/footage_1.mp4') ?> autoplay
+            muted loop></video>
 
         <!-- CONTENT -->
         <div class="become-a-mentor-content">

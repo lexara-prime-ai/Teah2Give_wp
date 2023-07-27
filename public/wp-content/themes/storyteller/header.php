@@ -10,7 +10,7 @@
   <!-- NAVIGATION -->
   <nav class="navigation">
     <!-- LOGO -->
-    <img src="./assets/images/logo.png" alt="logo" class="logo" id="logo">
+    <img src=<?php echo get_theme_file_uri('/assets/images/logo.png') ?> alt="logo" class="logo" id="logo">
 
     <!-- NAV LINKS -->
     <ul class="nav-links">
