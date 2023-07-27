@@ -1,13 +1,10 @@
 <?php
-/**
- * Summary of custom_theme_styles
- * @return void
- */
-function custom_theme_styles() {
-    // Enqueue your custom stylesheet
-    wp_enqueue_style('custom-style', get_template_directory_uri() . 'app/public/wp-content/themes/storyteller/style.css', array(), '1.0', 'all');
 
-    // Debug message
-    error_log('Custom stylesheet enqueued!');
+function story_teller_theme_files()
+{
+    wp_enqueue_style('google-fonts', '//fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+    wp_enqueue_style('font-awesome', '//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+    wp_enqueue_style('story_teller_main_sttyles', get_stylesheet_uri());
 }
-add_action('wp_enqueue_scripts', 'custom_theme_styles');
+
+add_action('wp_enqueue_scripts', 'story_teller_theme_files');

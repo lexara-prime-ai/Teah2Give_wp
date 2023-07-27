@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-
 <!-- HERO SECTION -->
 <section class="home hero-section">
     <!-- VIDEO -->

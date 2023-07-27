@@ -1,21 +1,8 @@
 /*
 Theme Name: storyteller
-Theme URI: Your Theme's URI
-Description: A brief description.
 Version: 1.0
 Author: Irfan Ghat
-Author URI: Your website address.
 */
-
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
-/* GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 /* COLOR PALETTE */
 :root {
