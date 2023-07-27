@@ -6,7 +6,13 @@
   <?php wp_head(); ?>
 </head>
 
-<body>
+<body style="
+    background: url(<?php echo get_theme_file_uri('/assets/images/bg.jpg') ?>); background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+">
+
   <!-- NAVIGATION -->
   <nav class="navigation">
     <!-- LOGO -->
