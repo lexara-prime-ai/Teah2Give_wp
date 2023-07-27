@@ -2,18 +2,13 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <title>Teach2give</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="icon" type="image/x-icon" href="./favicon.ico">
-
-  <!-- NB : Hosted files seem to be loading corectly -->
+  <?php wp_head(); ?>
+  <!-- NB : Load hosted files -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <link rel="stylesheet" href="https://t2gstylesheets.s3.eu-north-1.amazonaws.com/style.css" type="text/css">
+  <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 
 <body>
@@ -30,10 +25,12 @@
         </a>
       </li>
       <li class="link-item">
-        <a class="link" href="./about.php">
+        <a class="link active">
           About Us
         </a>
       </li>
+
+
       <li class="link-item">
         <a class="link" href="#why-mentor">
           Why Mentor?

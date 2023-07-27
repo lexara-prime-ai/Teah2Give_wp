@@ -4,7 +4,7 @@
 <!-- HERO SECTION -->
 <section class="home hero-section">
     <!-- VIDEO -->
-    <video class="video-slide active" src="./assets/videos/footage_2.mp4" autoplay muted loop></video>
+    <video class="video-slide active" src="./assets/videos/footage_1.mp4" autoplay muted loop></video>
 
     <!-- CONTENT -->
     <div #content class="content active">
