@@ -1,15 +1,10 @@
-<?php
-/*
-Template Name: About Us Template
-*/
-get_header();
-?>
-
+<?php get_header(); ?>
 
 <!-- HERO SECTION -->
 <section class="home hero-section">
     <!-- VIDEO -->
-    <video #slide class="video-slide active" src="./assets/videos/footage_1.mp4" autoplay muted loop></video>
+    <video #slide class="video-slide active" src=<?php echo get_theme_file_uri('/assets/videos/footage_1.mp4') ?>
+        autoplay muted loop></video>
 
     <!-- CONTENT -->
     <div #content class="content active">
@@ -116,9 +111,10 @@ get_header();
     <div class="about-section-wrapper">
         <!-- ABOUT IMAGE -->
         <div class="about-img-container">
-            <img class="about-img" src="./assets/images/placeholder/lady1.png" alt="about-img">
+            <img class="about-img" src=<?php echo get_theme_file_uri('/assets/images/placeholder/lady1.png') ?>
+                alt="about-img">
             <div class="overlay">
-                <img src="./assets/images/placeholder/lady2.png" alt="">
+                <img src=<?php echo get_theme_file_uri('/assets/images/placeholder/lady2.png') ?> alt="overlay">
             </div>
         </div>
         <!-- ABOUT CONTENT -->
@@ -167,19 +163,19 @@ get_header();
         <div class="row">
             <div class="col">
                 <div class="feature-img">
-                    <img src="./assets/images/placeholder/lady1.png" width="100%">
+                    <img src=<?php echo get_theme_file_uri('/assets/images/placeholder/lady1.png') ?> width="100%">
                     <!-- PLAY BUTTON -->
-                    <img src="./assets/images/media_icons/play.png" class="play-btn"
-                        onclick="playVideo('./assets/videos/stock_footage_2.mp4')">
-
+                    <img src=<?php echo get_theme_file_uri('/assets/images/media_icons/play.png') ?> class="play-btn"
+                        onclick="playVideo('<?php echo get_theme_file_uri('/assets/videos/footage_1.mp4') ?>')">
 
                     <!-- VIDEO PLAYER -->
                     <section class="video-player" id="video-player" #videoPlayer>
                         <video width="100%" controls autoplay id="video" #video>
-                            <source src="./assets/videos/stock_footage_2.mp4" type="video/mp4">
+                            <source src="" type="video/mp4">
                         </video>
                         <!-- CLOSE BUTTON -->
-                        <img src="./assets/images/media_icons/close.png" class="close-btn" onclick="stopVideo()">
+                        <img src=<?php echo get_theme_file_uri('/assets/images/media_icons/close.png') ?>
+                            class="close-btn" onclick="stopVideo()">
                     </section>
                 </div>
             </div>
@@ -187,10 +183,11 @@ get_header();
             <div class="col">
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src="./assets/images/placeholder/lady1.png">
+                        <img src=<?php echo get_theme_file_uri('/assets/images/placeholder/lady1.png') ?>>
                         <!-- PLAY BUTTON -->
-                        <img src="./assets/images/media_icons/play.png" class="play-btn"
-                            onclick="playVideo('./assets/videos/stock_footage_3.mp4')">
+                        <img src=<?php echo get_theme_file_uri('/assets/images/media_icons/play.png') ?>
+                            class="play-btn"
+                            onclick="playVideo('<?php echo get_theme_file_uri('/assets/videos/footage_2.mp4') ?>')">
                     </div>
                     <div class="mentee-info">
                         <p>
@@ -207,10 +204,11 @@ get_header();
 
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src=".assets/images/placeholder/lady1.png" width="40%">
+                        <img src=<?php echo get_theme_file_uri('assets/images/placeholder/lady1.png') ?> width="40%">
                         <!-- PLAY BUTTON -->
-                        <img src=".assets/images/media_icons/play.png" class="play-btn"
-                            onclick="playVideo('.assets/videos/stock_footage.mp4')">
+                        <img src=<?php echo get_theme_file_uri('/assets/images/media_icons/play.png') ?>
+                            class="play-btn"
+                            onclick="playVideo('<?php echo get_theme_file_uri('/assets/videos/footage_1.mp4') ?>')">
                     </div>
                     <div class="mentee-info">
                         <p>
@@ -228,10 +226,11 @@ get_header();
 
                 <div class="small-img-row">
                     <div class="small-img">
-                        <img src="./assets/images/placeholder/lady1.png" width="40%">
+                        <img src=<?php echo get_theme_file_uri('/assets/images/placeholder/lady1.png') ?> width="40%">
                         <!-- PLAY BUTTON -->
-                        <img src="./assets/images/media_icons/play.png" class="play-btn"
-                            onclick="playVideo('./assets/videos/stock_footage_3.mp4')">
+                        <img src=<?php echo get_theme_file_uri('/assets/images/media_icons/play.png') ?>
+                            class="play-btn"
+                            onclick="playVideo('<?php echo get_theme_file_uri('/assets/videos/footage_2.mp4') ?>')">
                     </div>
                     <div class="mentee-info">
                         <p>
@@ -271,7 +270,8 @@ get_header();
         <div class="employee-card">
             <!-- AVATAR -->
             <div class="employee-avatar">
-                <img src="./assets/images/placeholder/stock3.jpg" alt="avatar" class="avatar">
+                <img src=<?php echo get_theme_file_uri('/assets/images/placeholder/stock3.jpg') ?> alt="avatar"
+                    class="avatar">
             </div>
 
             <!-- CARD CONTENT -->
@@ -309,7 +309,8 @@ get_header();
         <div class="employee-card center">
             <!-- AVATAR -->
             <div class="employee-avatar">
-                <img src="./assets/images/placeholder/stock3.jpg" alt="avatar" class="avatar center">
+                <img src=<?php echo get_theme_file_uri('/assets/images/placeholder/stock3.jpg') ?> alt="avatar"
+                    class="avatar center">
             </div>
 
             <!-- CARD CONTENT -->
@@ -347,7 +348,8 @@ get_header();
         <div class="employee-card">
             <!-- AVATAR -->
             <div class="employee-avatar">
-                <img src="./assets/images/placeholder/stock3.jpg" alt="avatar" class="avatar">
+                <img src=<?php echo get_theme_file_uri('/assets/images/placeholder/stock3.jpg') ?> alt="avatar"
+                    class="avatar">
             </div>
 
             <!-- CARD CONTENT -->
@@ -384,18 +386,30 @@ get_header();
 </section>
 
 <!-- SPONSOR SECTION -->
-<section class="sponsor-section">
+<section class="sponsor-section" style="
+    background: url(<?php echo get_theme_file_uri('assets/images/sponsor_bg.jpg') ?>);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    top: -200px;
+">
     <!-- SECTION TITLE -->
     <h2 class="sponsor-section-title">
         Our Sponsors
     </h2>
     <!-- SPONSORS -->
     <div class="sponsors">
-        <img src="./assets/images/sponsors/sos.png" alt="sponsor" class="sponsor-logo">
-        <img src="./assets/images/sponsors/compassion.png" alt="sponsor" class="sponsor-logo">
-        <img src="./assets/images/sponsors/save_the_children.png" alt="sponsor" class="sponsor-logo">
-        <img src="./assets/images/sponsors/Develop_africa.png" alt="sponsor" class="sponsor-logo">
-        <img src="./assets/images/sponsors/kids_in_africa.png" alt="sponsor" class="sponsor-logo">
+        <img src=<?php echo get_theme_file_uri('/assets/images/sponsors/sos.png') ?> alt="sponsor" class="sponsor-logo">
+        <img src=<?php echo get_theme_file_uri('/assets/images/sponsors/compassion.png') ?> alt="sponsor"
+            class="sponsor-logo">
+        <img src=<?php echo get_theme_file_uri('/assets/images/sponsors/save_the_children.png') ?> alt="sponsor"
+            class="sponsor-logo">
+        <img src=<?php echo get_theme_file_uri('/assets/images/sponsors/Develop_africa.png') ?> alt="sponsor"
+            class="sponsor-logo">
+        <img src=<?php echo get_theme_file_uri('/assets/images/sponsors/kids_in_africa.png') ?> alt="sponsor"
+            class="sponsor-logo">
     </div>
 </section>
 

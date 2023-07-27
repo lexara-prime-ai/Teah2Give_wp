@@ -11,7 +11,7 @@
     background-position: center;
     background-repeat: no-repeat;
     overflow-x: hidden;
-">
+" onscroll="closeSideMenu()">
 
   <!-- NAVIGATION -->
   <nav class="navigation">
@@ -26,12 +26,10 @@
         </a>
       </li>
       <li class="link-item">
-        <a class="link active">
+        <a class="link active" href=<?php echo site_url('/about-us') ?>>
           About Us
         </a>
       </li>
-
-
       <li class="link-item">
         <a class="link" href="#why-mentor">
           Why Mentor?
