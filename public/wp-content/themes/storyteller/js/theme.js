@@ -1,9 +1,11 @@
 function openSideMenu() {
     document.getElementById('side-menu').style.width = '250px';
+    document.querySelector('.side-nav-links').style.display = 'block';
 }
 
 function closeSideMenu() {
     document.getElementById('side-menu').style.width = '0';
+    document.querySelector('.side-nav-links').style.display = 'none';
 }
 
 const videoElement = document.querySelector('#video');

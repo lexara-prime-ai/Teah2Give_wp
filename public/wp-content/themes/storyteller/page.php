@@ -391,10 +391,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
     position: relative;
     margin-bottom: -14rem;
     top: -200px;
+
+    @media (max-width: 500px) {
+        height: 900px;
+        opacity:0;
+    }
 ">
     <!-- SECTION TITLE -->
     <h2 class="sponsor-section-title">

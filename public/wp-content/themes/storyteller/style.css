@@ -107,7 +107,7 @@ html {
     opacity: .94;
     overflow-x: hidden;
     padding-top: 60px;
-    transition: .3s all ease;
+    transition: .15s all ease;
 }
 
 .side-nav a {
@@ -1324,6 +1324,7 @@ video:focus {
 
 .sponsors {
     background: rgba(0, 0, 0, 0.3);
+    padding-bottom: 5rem;
 }
 
 .sponsor-logo {
@@ -1536,7 +1537,7 @@ video:focus {
     }
 
     .sponsor-section {
-        height: 700px;
+        height: 900px;
     }
 
     .sponsor-section-title {
@@ -1634,6 +1635,10 @@ video:focus {
     .feature-img {
         width: 250px;
         height: 200px;
+    }
+
+    .sponsors {
+        padding-bottom: 2rem;
     }
 }
 
@@ -2011,3 +2016,4 @@ footer {
         padding: 2rem;
     }
 }
+

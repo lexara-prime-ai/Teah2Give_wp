@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <title>Teach2give</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href=<?php echo get_theme_file_uri('/assets/icons/favicon.ico') ?>>
   <!-- NB : Load files -->
   <?php wp_head(); ?>
 </head>
@@ -63,13 +67,13 @@
     </a>
 
     <div class="side-nav-links">
-      <a href="index.html">
+      <a href=<?php echo site_url('/') ?>>
         Home
         <span>
           <i class="fas fa-home"></i>
         </span>
       </a>
-      <a href="about.html">
+      <a href=<?php echo site_url('/about-us') ?>>
         About Us
         <span>
           <i class="fas fa-book"></i>
