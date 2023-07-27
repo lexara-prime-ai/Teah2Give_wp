@@ -21,13 +21,13 @@
         </h1>
 
         <!-- INFO -->
-        <p class="info">
+        <p class="info" data-aos="fade-right" data-aos-delay="300">
             "Nurturing minds for a brighter future and endless possibilities."
         </p>
     </div>
 
     <!-- SOCIAL MEDIA -->
-    <div class="social-media-icons">
+    <div class="social-media-icons" data-aos="fade-left" data-aos-delay="400">
         <!-- LINKS -->
         <a>
             <i class="fa-brands fa-linkedin-in"></i>
@@ -110,7 +110,7 @@
     <!-- WRAPPER -->
     <div class="about-section-wrapper">
         <!-- ABOUT IMAGE -->
-        <div class="about-img-container">
+        <div class="about-img-container" data-aos="flip-up" data-aos-delay="300">
             <img class="about-img" src=<?php echo get_theme_file_uri('/assets/images/placeholder/lady1.png') ?>
                 alt="about-img">
             <div class="overlay">
@@ -118,7 +118,7 @@
             </div>
         </div>
         <!-- ABOUT CONTENT -->
-        <div class="about-content">
+        <div class="about-content" data-aos="fade-left" data-aos-delay="300">
             <!-- TITLE -->
             <h1 class="about-title">
                 <span>More about</span> Teach2Give
@@ -162,7 +162,7 @@
 
         <div class="row">
             <div class="col">
-                <div class="feature-img">
+                <div class="feature-img" data-aos="fade-left" data-aos-delay="300">
                     <img src=<?php echo get_theme_file_uri('/assets/images/placeholder/lady1.png') ?> width="100%">
                     <!-- PLAY BUTTON -->
                     <img src=<?php echo get_theme_file_uri('/assets/images/media_icons/play.png') ?> class="play-btn"
@@ -181,7 +181,7 @@
             </div>
 
             <div class="col">
-                <div class="small-img-row">
+                <div class="small-img-row" data-aos="fade-left" data-aos-delay="400">
                     <div class="small-img">
                         <img src=<?php echo get_theme_file_uri('/assets/images/placeholder/lady1.png') ?>>
                         <!-- PLAY BUTTON -->
@@ -202,7 +202,7 @@
                     </div>
                 </div>
 
-                <div class="small-img-row">
+                <div class="small-img-row" data-aos="fade-right" data-aos-delay="500">
                     <div class="small-img">
                         <img src=<?php echo get_theme_file_uri('assets/images/placeholder/lady1.png') ?> width="40%">
                         <!-- PLAY BUTTON -->
@@ -224,7 +224,7 @@
                     </div>
                 </div>
 
-                <div class="small-img-row">
+                <div class="small-img-row" data-aos="fade-right" data-aos-delay="600">
                     <div class="small-img">
                         <img src=<?php echo get_theme_file_uri('/assets/images/placeholder/lady1.png') ?> width="40%">
                         <!-- PLAY BUTTON -->
@@ -267,7 +267,7 @@
     <!-- STEPS -->
     <div class="employee-cards">
         <!-- EMPLOYEE CARD -->
-        <div class="employee-card">
+        <div class="employee-card" data-aos="fade-up" data-aos-delay="300">
             <!-- AVATAR -->
             <div class="employee-avatar">
                 <img src=<?php echo get_theme_file_uri('/assets/images/placeholder/stock3.jpg') ?> alt="avatar"
@@ -306,7 +306,7 @@
         </div>
 
         <!-- EMPLOYEE CARD -->
-        <div class="employee-card center">
+        <div class="employee-card center" data-aos="fade-up" data-aos-delay="400">
             <!-- AVATAR -->
             <div class="employee-avatar">
                 <img src=<?php echo get_theme_file_uri('/assets/images/placeholder/stock3.jpg') ?> alt="avatar"
@@ -345,7 +345,7 @@
         </div>
 
         <!-- EMPLOYEE CARD -->
-        <div class="employee-card">
+        <div class="employee-card" data-aos="fade-up" data-aos-delay="500">
             <!-- AVATAR -->
             <div class="employee-avatar">
                 <img src=<?php echo get_theme_file_uri('/assets/images/placeholder/stock3.jpg') ?> alt="avatar"
@@ -405,7 +405,7 @@
         Our Sponsors
     </h2>
     <!-- SPONSORS -->
-    <div class="sponsors">
+    <div class="sponsors" data-aos="fade-left" data-aos-delay="300">
         <img src=<?php echo get_theme_file_uri('/assets/images/sponsors/sos.png') ?> alt="sponsor" class="sponsor-logo">
         <img src=<?php echo get_theme_file_uri('/assets/images/sponsors/compassion.png') ?> alt="sponsor"
             class="sponsor-logo">

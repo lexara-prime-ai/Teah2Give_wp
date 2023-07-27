@@ -7,7 +7,7 @@
         muted loop></video>
 
     <!-- CONTENT -->
-    <div #content class="content active">
+    <div class="content active">
         <!-- SLOGAN -->
         <h1 class="slogan">
             Building Careers, Improving Families,
@@ -20,7 +20,7 @@
         </h1>
 
         <!-- INFO -->
-        <p class="info">
+        <p class="info" data-aos="fade-right" data-aos-delay="300">
             "Make a lasting impact. Become a <span>mentor</span> and shape the future. Empower students, build careers
             and uplift
             families. Join us in transforming lives through the gift of your time."
@@ -28,7 +28,7 @@
     </div>
 
     <!-- SOCIAL MEDIA -->
-    <div class="social-media-icons">
+    <div class="social-media-icons" data-aos="fade-left" data-aos-delay="400">
         <!-- LINKS -->
         <a>
             <i class="fa-brands fa-linkedin-in"></i>
@@ -51,7 +51,7 @@
     <!-- WRAPPER -->
     <div class="info-section-wrapper">
         <!-- INFO CONTENT -->
-        <div class="info-content">
+        <div class="info-content" data-aos="fade-right" data-aos-delay="300">
             <!-- INFO ICON -->
             <i class="info-icon fa-solid fa-thumbtack"></i>
             <!-- TITLE -->
@@ -93,14 +93,14 @@
         </div>
 
         <!-- INFO VIDEO -->
-        <div class="video-container">
+        <div class="video-container" data-aos="fade-left" data-aos-delay="400">
             <video src=<?php echo get_theme_file_uri('/assets/videos/footage_1.mp4') ?> autoplay muted loop></video>
         </div>
     </div>
 </section>
 
 <!-- HOW IT WORKS SECTION -->
-<section class="how-it-works">
+<section class="how-it-works" data-aos="fade-up" data-aos-delay="300">
     <h2>
         How it works?
     </h2>
@@ -174,7 +174,7 @@
             muted loop></video>
 
         <!-- CONTENT -->
-        <div class="become-a-mentor-content">
+        <div class="become-a-mentor-content" data-aos="fade-up" data-aos-delay="300">
             <!-- ICON -->
             <i class="mentor-icon fa-solid fa-thumbtack"></i>
             <!-- TITLE -->

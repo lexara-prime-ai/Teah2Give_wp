@@ -25,7 +25,7 @@
     <!-- NAV LINKS -->
     <ul class="nav-links">
       <li class="link-item">
-        <a class="link active">
+        <a class="link active" href=<?php echo site_url('/') ?>>
           Home
         </a>
       </li>
