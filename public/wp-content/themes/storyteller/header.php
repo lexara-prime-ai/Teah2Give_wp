@@ -53,7 +53,35 @@
     </ul>
 
     <!-- SIDE NAVIGATION -->
-    <a class="side-navigation-toggle">
+    <a class="side-navigation-toggle" onclick="openSideMenu()">
       <i class="bar-icon fa-solid fa-bars"></i>
     </a>
   </nav>
+
+  <!-- SIDE MENU -->
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSideMenu()">
+      &times;
+    </a>
+
+    <div class="side-nav-links">
+      <a href="index.html">
+        Home
+        <span>
+          <i class="fas fa-home"></i>
+        </span>
+      </a>
+      <a href="about.html">
+        About Us
+        <span>
+          <i class="fas fa-book"></i>
+        </span>
+      </a>
+      <a href="#why-mentor">
+        Why Mentor?
+        <span>
+          <i class="fas  fa-business-time"></i>
+        </span>
+      </a>
+    </div>
+  </div>

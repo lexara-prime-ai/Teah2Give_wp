@@ -94,6 +94,67 @@ html {
     opacity: 1;
 }
 
+/********** SIDE NAVIGATION **********/
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    background: #000000;
+    box-shadow: 0 3rem 4rem 0 rgba(0, 0, 0, .5);
+    opacity: .94;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: .3s all ease;
+}
+
+.side-nav a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    color: #bdbdbd;
+    display: block;
+    margin-bottom: 1rem;
+    transition: .3s all ease;
+}
+
+.side-nav a:hover {
+    background: var(--white);
+    margin-left: 9px;
+    color: var(--dark-alt);
+}
+
+.side-nav a span {
+    display: none;
+}
+
+.side-nav a:hover span {
+    color: var(--dark);
+    display: inline;
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 3rem;
+    margin-left: 50px;
+}
+
+.side-nav .btn-close:hover {
+    background: transparent;
+    color: var(--white);
+}
+
+.side-nav-links {
+    margin-top: 6rem;
+}
+
+
 /* GLOW ANIMATION */
 @-webkit-keyframes border-glow {
     0% {
