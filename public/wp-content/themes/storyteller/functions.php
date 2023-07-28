@@ -18,7 +18,6 @@ function story_teller_features()
 
 add_action('after_theme_setup', 'story_teller_features');
 
-add_action('wp_enqueue_scripts', 'add_aos_animation');
 function add_aos_animation()
 {
     wp_enqueue_style('AOS_animate', '//cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css', false, null);
@@ -26,3 +25,4 @@ function add_aos_animation()
     wp_enqueue_script('theme-js', get_template_directory_uri() . '/js/animate.js', array('AOS'), null, true);
 }
 
+add_action('wp_enqueue_scripts', 'add_aos_animation');
