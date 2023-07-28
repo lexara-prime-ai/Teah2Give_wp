@@ -144,6 +144,98 @@
     </div>
 </section>
 
+<div class="grid-wrapper">
+    <!-- OUR PURPOSE SECTION -->
+    <section class="our-purpose">
+        <div class="our-purpose-title">
+            <h2>
+                Our Purpose
+            </h2>
+
+            <p>
+                “<span>Empower Graduates</span>, Bridging Opportunities”
+            </p>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="our-purpose-content-wrapper">
+            <ul class="purpose-list">
+                <li class="purpose">
+                    <span>
+                        Facilitating Graduation and Work Permits
+                    </span>
+                    We support college graduates by providing the necessary assistance to secure a mandatory attachment
+                    so
+                    that they can graduate and get Work Permits, opening the door to promising career opportunities.
+                </li>
+
+                <li class="purpose opacity-lvl-1">
+                    <span>
+                        Real-World Training for Gainful Employment
+                    </span>
+                    : We offer comprehensive real-world training programs that equip students with the skills and
+                    knowledge
+                    needed to excel in their chosen fields globally, ensuring a seamless transition into the global
+                    workforce.
+                </li>
+
+                <li class="purpose opacity-lvl-2">
+                    <span>
+                        Personalized Mentorship
+                    </span>
+                    Each student is matched with a dedicated mentor who provides guidance, support, and valuable
+                    insights,
+                    helping them navigate challenges and maximize their potential for personal and professional growth.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- OUR VISION SECTION -->
+    <section class="our-vision">
+        <div class="our-vision-title">
+            <h2>
+                Our Vision
+            </h2>
+
+            <p>
+                “<span>Empowering Futures</span>, Transforming Communities”
+            </p>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="vision-content-wrapper">
+            <p class="commitment">
+                Teach2Give's commitment by <span>December 2024</span>
+            </p>
+
+            <ul class="commitments">
+                <li>
+                    Help 500 students obtain college degrees by offering a compulsory attachment.
+                </li>
+
+                <li>
+                    Cultivate a network of 400 mentors, inspiring lifelong success.
+                </li>
+
+                <li>
+                    Partner with more than 10 universities in Kenya, expanding educational opportunities.
+                </li>
+            </ul>
+        </div>
+
+        <!-- ADDITIONAL CONTENT -->
+        <p class="statement">
+            Join us in empowering futures and transforming communities through education. Together, we can create a
+            world
+            where limitless opportunities await.
+        </p>
+    </section>
+</div>
+
+
+
+
 <!-- TESTIMONIALS SECTION -->
 <div class="testimonial-wrapper">
     <section class="testimonials testimonials-container">

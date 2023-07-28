@@ -4,7 +4,7 @@
         <div class="more-info">
             <img src=<?php echo get_theme_file_uri('/assets/images/logo.png') ?> alt="logo" class="footer-logo">
             <p class="more-from-teach2give">
-                Everything You Need to Know About Moving to University of College with FromHighSchooltoUni
+                Everything you need to know about University or College Attachments and Internships.
             </p>
         </div>
 

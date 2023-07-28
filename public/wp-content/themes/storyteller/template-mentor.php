@@ -76,9 +76,10 @@ Template Name: Mentor Template
                     <li> 1. <span>Meaningful Interactions</span>: Connect with our students once a month, dedicating
                         at least one hour to speak directly with them. These regular interactions establish a
                         supportive and inspiring relationship that fuels their growth and development. </li>
-                    <li> 2. <span>Accelerated Growth</span>: Connect with our students once a month, dedicating at
-                        least one hour to speak directly with them. These regular interactions establish a
-                        supportive and inspiring relationship that fuels their growth and development. </li>
+                    <li> 2. <span>Career Guidance</span>: By providing guidance, wisdom, and support, mentors offer
+                        invaluable insights into the industry, foster skill development, and build the confidence needed
+                        to help the students navigate the professional world successfully. Through mentorship, students
+                        gain a competitive edge in the global market.</li>
                 </ul>
                 <ul class="virtues">
                     <li class="virtue"> We recognize the impact of knowledge over financial assistance. </li>
@@ -88,7 +89,7 @@ Template Name: Mentor Template
                         to the betterment of their communities.
                     </li>
                 </ul>
-
+                <!-- CTA BUTTON -->
                 <button class="become-a-mentor-cta"> Become a Mentor Today </button>
             </div>
         </div>
@@ -124,7 +125,7 @@ Template Name: Mentor Template
     <div class="results">
         <div class="result active">
             <h2>
-                Diploma
+                Degree and Diploma
                 <i class="fa-solid fa-shield"></i>
             </h2>
             <p> Your donations provide students with essential attachments, allowing them to attain their college
@@ -132,19 +133,66 @@ Template Name: Mentor Template
                 support themselves, their families, and their communities. </p>
         </div>
         <div class="result">
-            <h2>Diploma</h2>
-            <p> Your donations provide students with essential attachments, allowing them to attain their college
-                diplomas and Kenyan work visas. This opens doors to employment opportunities, enabling them to
-                support themselves, their families, and their communities. </p>
+            <h2>Employment Advantage</h2>
+            <p> By mentoring a student, you give them a competitive edge in the job market. They become equipped with
+                the skills and legal documentation necessary to secure meaningful employment, fostering independence and
+                self-sufficiency.</p>
         </div>
         <div class="result">
-            <h2>Diploma</h2>
-            <p> Your donations provide students with essential attachments, allowing them to attain their college
-                diplomas and Kenyan work visas. This opens doors to employment opportunities, enabling them to
-                support themselves, their families, and their communities. </p>
+            <h2>Multiplier Effect</h2>
+            <p> Your mentorship goes beyond individual impact. It creates a ripple effect as empowered students
+                positively influence their families and communities. They become agents of change, uplifting those
+                around them through education, employment, mentorship, and community development. </p>
         </div>
     </div>
 </section>
 
+<!-- TIME THAT YOU GIVE SECTION -->
+<section class="time">
+    <div class="time-section-title">
+        <h2 class="title">
+            Time That You Give
+        </h2>
+
+        <p class="sub-title">
+            Empowerment through mentorship: Your time matters.
+        </p>
+    </div>
+
+    <ul class="time-section-list">
+        <li>
+            With a resolute commitment to impact lives and serve humanity, <span>Teach2Give</span> believes that real
+            change is born from acts of compassion. By extending our reach and imparting knowledge, we unlock the inner
+            potential within individuals, fostering sustainable progress and creating lasting impact.
+        </li>
+
+        <li>
+            Your mentorship transforms lives. By sharing your expertise and time, you empower students to navigate the
+            complexities of global business, fostering their personal and professional growth.
+        </li>
+
+        <li>
+            Join us in inspiring confidence and shaping futures through mentorship. Your commitment creates a brighter
+            path for these exceptional individuals, breaking barriers and fostering their success.
+        </li>
+    </ul>
+
+    <!-- CTA BUTTON -->
+    <button class="become-a-mentor-cta"> Become a Mentor Today </button>
+
+    <!-- ADDITIONAL CONTENT -->
+    <div class="additional-time-content">
+        <p class="outcome">
+            At Teach2Give, being a mentor is a truly rewarding experience. Not only does it bring profound benefits to
+            the mentee, but it also profoundly impacts the mentor's own journey.
+        </p>
+
+        <p>
+            By working closely with young, motivated individuals who are eager to learn and grow, mentors play a pivotal
+            role in transforming lives. Witnessing the tangible impact of their guidance and support on mentees' lives,
+            as well as the ripple effect it has on their families and communities, is truly fulfilling.
+        </p>
+    </div>
+</section>
 
 <?php get_footer(); ?>
