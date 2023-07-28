@@ -15,7 +15,9 @@ Template Name: Mentor Template
     <!-- CONTENT -->
     <div class="content active">
         <!-- SLOGAN -->
-        <h1 class="slogan"> WHY MENTOR <span> A <span class="green"> STUDENT? </span>
+        <h1 class="slogan"> WHY MENTOR 
+            <br>
+            <span> A <span class="green"> STUDENT? </span>
             </span>
         </h1>
         <!-- INFO -->
@@ -94,7 +96,7 @@ Template Name: Mentor Template
             </div>
         </div>
         <!-- ADDITIONAL CONTENT -->
-        <div class="additional-mentor-content">
+        <div class="additional-mentor-content" data-aos="fade-right" data-aos-delay="550">
             <p> At <span>Teach2Give</span>, we recognize that true transformation lies in knowledge. While financial
                 assistance
                 may
@@ -155,35 +157,51 @@ Template Name: Mentor Template
         </h2>
 
         <p class="sub-title">
-            Empowerment through mentorship: Your time matters.
+            <span>
+                Empowerment through mentorship
+            </span>
+            : Your time matters.
         </p>
     </div>
 
-    <ul class="time-section-list">
-        <li>
-            With a resolute commitment to impact lives and serve humanity, <span>Teach2Give</span> believes that real
-            change is born from acts of compassion. By extending our reach and imparting knowledge, we unlock the inner
-            potential within individuals, fostering sustainable progress and creating lasting impact.
-        </li>
+    <!-- CONTENT -->
+    <div class="time-content-wrapper">
+        <div class="time-content">
+            <!-- TIME SECTION LIST -->
+            <ul class="time-section-list">
+                <li>
+                    With a resolute commitment to impact lives and serve humanity, <span>Teach2Give</span> believes that
+                    real
+                    change is born from acts of compassion. By extending our reach and imparting knowledge, we unlock
+                    the
+                    inner
+                    potential within individuals, fostering sustainable progress and creating lasting impact.
+                </li>
 
-        <li>
-            Your mentorship transforms lives. By sharing your expertise and time, you empower students to navigate the
-            complexities of global business, fostering their personal and professional growth.
-        </li>
+                <li>
+                    Your mentorship transforms lives. By sharing your expertise and time, you empower students to
+                    navigate
+                    the
+                    complexities of global business, fostering their personal and professional growth.
+                </li>
 
-        <li>
-            Join us in inspiring confidence and shaping futures through mentorship. Your commitment creates a brighter
-            path for these exceptional individuals, breaking barriers and fostering their success.
-        </li>
-    </ul>
+                <li>
+                    Join us in inspiring confidence and shaping futures through mentorship. Your commitment creates a
+                    brighter
+                    path for these exceptional individuals, breaking barriers and fostering their success.
+                </li>
 
-    <!-- CTA BUTTON -->
-    <button class="become-a-mentor-cta"> Become a Mentor Today </button>
+            </ul>
+            <!-- CTA BUTTON -->
+            <button class="become-a-mentor-cta"> Become a Mentor Today </button>
+        </div>
+    </div>
+
 
     <!-- ADDITIONAL CONTENT -->
     <div class="additional-time-content">
         <p class="outcome">
-            At Teach2Give, being a mentor is a truly rewarding experience. Not only does it bring profound benefits to
+            At <span>Teach2Give</span>, being a mentor is a truly rewarding experience. Not only does it bring profound benefits to
             the mentee, but it also profoundly impacts the mentor's own journey.
         </p>
 

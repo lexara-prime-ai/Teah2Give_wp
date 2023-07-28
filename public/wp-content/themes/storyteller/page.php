@@ -3,7 +3,7 @@
 <!-- HERO SECTION -->
 <section class="home hero-section">
     <!-- VIDEO -->
-    <video #slide class="video-slide active" src=<?php echo get_theme_file_uri('/assets/videos/footage_1.mp4') ?>
+    <video class="video-slide active" src=<?php echo get_theme_file_uri('/assets/videos/footage_1.mp4') ?>
         autoplay muted loop></video>
 
     <!-- CONTENT -->
@@ -164,7 +164,8 @@
                     <span>
                         Facilitating Graduation and Work Permits
                     </span>
-                    We support college graduates by providing the necessary assistance to secure a mandatory attachment
+                    : We support college graduates by providing the necessary assistance to secure a mandatory
+                    attachment
                     so
                     that they can graduate and get Work Permits, opening the door to promising career opportunities.
                 </li>
@@ -183,7 +184,7 @@
                     <span>
                         Personalized Mentorship
                     </span>
-                    Each student is matched with a dedicated mentor who provides guidance, support, and valuable
+                    : Each student is matched with a dedicated mentor who provides guidance, support, and valuable
                     insights,
                     helping them navigate challenges and maximize their potential for personal and professional growth.
                 </li>
@@ -232,8 +233,6 @@
         </p>
     </section>
 </div>
-
-
 
 
 <!-- TESTIMONIALS SECTION -->
