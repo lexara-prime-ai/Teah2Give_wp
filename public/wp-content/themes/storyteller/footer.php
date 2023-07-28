@@ -14,16 +14,22 @@
             </h2>
 
             <ul class="hyper-links">
-                <li class="hyper-link" [routerLink]="''">
-                    Home
+                <li class="hyper-link">
+                    <a href=<?php echo site_url('/') ?>>
+                        Home
+                    </a>
                 </li>
 
                 <li class="hyper-link">
-                    About Us
+                    <a href=<?php echo site_url('/about-us') ?>>
+                        About Us
+                    </a>
                 </li>
 
                 <li class="hyper-link">
-                    Mentor
+                    <a href=<?php echo site_url('/become-a-mentor') ?>>
+                        Mentor
+                    </a>
                 </li>
 
                 <li class="hyper-link">

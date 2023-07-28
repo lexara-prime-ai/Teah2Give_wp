@@ -11,7 +11,7 @@
 </head>
 
 <body style="
-    background: url(<?php echo get_theme_file_uri('/assets/images/bg.jpg') ?>); background-size: cover;
+    background: #ffffff; background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -46,7 +46,7 @@
       </li>
 
       <!-- CTA -->
-      <a class="cta">
+      <a class="cta" href=<?php echo site_url('/become-a-mentor') ?>>
         <button class="cta-btn">
           Donate Your Time
           <i class="fa-solid fa-caret-right"></i>

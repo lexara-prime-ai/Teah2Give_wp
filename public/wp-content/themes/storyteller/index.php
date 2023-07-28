@@ -87,9 +87,11 @@
             </ul>
 
             <!-- CTA BUTTON -->
-            <button class="info-cta">
-                Become a mentor
-            </button>
+            <a href=<?php echo site_url('/become-a-mentor') ?>>
+                <button class="info-cta">
+                    Become a mentor
+                </button>
+            </a>
         </div>
 
         <!-- INFO VIDEO -->

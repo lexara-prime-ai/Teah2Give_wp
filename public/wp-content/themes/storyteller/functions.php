@@ -25,3 +25,4 @@ function add_aos_animation()
     wp_enqueue_script('AOS', '//cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js', false, null, true);
     wp_enqueue_script('theme-js', get_template_directory_uri() . '/js/animate.js', array('AOS'), null, true);
 }
+
