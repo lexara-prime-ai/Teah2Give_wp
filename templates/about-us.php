@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: about us Template
+*/
+
+get_header();
+
+?>
 
 <!-- HERO SECTION -->
 <section class="home hero-section">

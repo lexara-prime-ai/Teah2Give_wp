@@ -69,6 +69,8 @@
                 <button class="subscribe-btn">
                     Let's Talk
                 </button>
+
+                <!-- <?php echo do_shortcode( '[forminator_form id="26"]' );?> -->
             </div>
         </div>
     </div>

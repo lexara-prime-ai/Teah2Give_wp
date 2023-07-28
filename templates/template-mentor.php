@@ -2,9 +2,8 @@
 /*
 Template Name: Mentor Template
 */
-?>
 
-<?php get_header(); ?>
+get_header(); ?>
 
 
 <!-- HERO SECTION -->
